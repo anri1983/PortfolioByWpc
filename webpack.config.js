@@ -8,7 +8,7 @@ module.exports = {
         portfolio: './src/index.js',
            },
     output: {
-        filename: '[name].[contenthash].bundle.js',
+        filename: '[name].[contenthash].bundle.js', 
         path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
@@ -16,7 +16,7 @@ module.exports = {
     },
     plugins: [
         new htmlWPP({
-            template: './src/index.html'
+            template: './src/index.html',
         }),
         new CleanWebpackPlugin(),
     ],

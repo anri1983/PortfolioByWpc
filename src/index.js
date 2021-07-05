@@ -1,4 +1,3 @@
-import about from './about';
+import {renderTodolist} from './todo.js';
 import './styles/style.css'
 
-console.log(about);
